@@ -1,0 +1,32 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "ganache": "ganache-cli",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/stormx-inc/code-test/candidates/albert/solidity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/stormx-inc/code-test/candidates/albert/solidity/issues"
+  },
+  "homepage": "https://gitlab.com/stormx-inc/code-test/candidates/albert/solidity#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^0.2.1",
+    "@openzeppelin/contracts": "^4.3.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "chai": "^4.3.4"
+  }
+}

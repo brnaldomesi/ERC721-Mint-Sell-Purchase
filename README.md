@@ -1,34 +1,6 @@
-# NFT
+# How to run
 
-[ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) introduces a standard for Non-fungible Token (NFT). It is a very exciting sector that blockchain enables us to do so much more!
-
-## User Story
-
-> As an artist, I want to showoff my art piece on the blockchain where people can purchase my art knowing it is authentic.
-
-## Requirements
-
-Write smart contracts in Solidity that mints 500 NFTs total. NFT is only minted when a buyer purchases the NFT. The price of the NFT increases as NFT supply decreases. Buyers can buy the NFTs with STMX or ETH.
-
-### Submission
-
-Please create a feature branch for your work and when complete open a merge request, tagging GitLab user `calvinh8` as the reviewer.
-
-### Timeline
-
-Feel free to spend up-to 3 hours on the assignment. If you do go over the 3 hour mark, please note as much in your merge request. I do not watch the clock, but we expect honesty and transparency in our team and hold each other to those standards.
-
-## Acceptance Criteria
-
-- Solidity should be used for implementing smart contracts
-- Truffle should be used for setting up NFT project and testing
-- Unit tests with at least 80% coverage
-- Document all required steps to build and run the assignment
-
-### Bonus (in no particular order):
-
-> If you decide to do the bonus points, please document how much additional time you spend on implementing bonus points.
-
-1. Use Chainlink or a similar oracle to get real-time pricing of STMX and ETH
-2. Build or clone a simple, basic React dApp (such as [Unisocks](https://unisocks.exchange/)) that connects to web3 showcasing the image of the NFT buyers can buy, the quantity, and the payment option to complete the purchase. If dApp is cloned, please specify which project did you clone from
-3. Deploy smart contracts on testnet
+1. `yarn`
+2. `yarn compile`
+3. `yarn ganache`
+4. `yarn test`
